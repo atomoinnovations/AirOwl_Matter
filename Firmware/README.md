@@ -37,38 +37,47 @@ Click on Open Project button as highlighted in the above picture and locate the 
 
 ![alt text](md_images/opening_firmware_repo.png)
 
-### Step 3 Adding Matter Support
-To enable Matter compatibility in the Airowl firmware:
+### Adding Airowl Matter Device to Apple Home
 
-Navigate to PlatformIO's Arduino framework packages directory:
+Airowl is a Matter-compatible device that can be added to Apple Home for smart home automation. Unlike other devices that require a physical pairing button, Airowl automatically enters pairing mode after connecting to Wi-Fi using Wi-Fi Manager.
 
-### /.platformio/packages/framework-arduinoespressif32/libraries/
+## Step-by-Step Guide to Pair Airowl with Apple Home
 
-Replace the existing Matter library by deleting the current Matter folder and replacing it with the custom Matter implementation provided in our repository's /Firmware/Matter directory.
+### Step 1: Power on the Airowl Device  
+- Connect the device to a power source.  
+- The device will create a Wi-Fi hotspot (e.g., **"Airowl-Setup"**).  
 
+### Step 2: Connect to Airowl’s Wi-Fi and Configure  
 
+1. **Open Wi-Fi settings** on your phone and connect to **Airowl’s Wi-Fi** (SSID shown on the device).  
 
+2. Once connected, a **Wi-Fi Manager portal** will open automatically. If not, go to **`192.168.4.1`** in a browser.  
 
-![Screenshot from 2025-03-04 18-59-36](https://github.com/user-attachments/assets/c26bafb8-857d-40da-8d69-bd8c27ad77b5)
+3. Select your **home Wi-Fi network** and enter the password.  
 
+4. Tap **Connect**, and Airowl will join your network.  
 
+🚀 **At this point, the device automatically enters pairing mode!**  
 
+### Step 3: Open Apple Home App  
 
+1. Open the **Apple Home** app on your iPhone.  
 
-Copy the custom Matter folder from repository:
+2. Tap the **“+” (Add Accessory)** button in the top-right corner.  
 
-### cp -r Firmware/Matter/ .platformio/packages/framework-arduinoespressif32/libraries/Matter
+3. Select **“Add Accessory.”**  
 
-Replacing with custom Matter implementation
+### Step 4: Scan the Matter QR Code  
 
+- Locate the **Matter QR Code** (on the device or documentation).  
+- Use your **iPhone camera** to scan the QR code.  
+- If there's no QR code, tap **“More Options”** and choose the device from the list.  
 
-### This custom Matter implementation includes:
+### Step 5: Complete Setup  
 
-Airowl-specific device type definitions
-
-Modified clusters for air quality monitoring
-
-### Note: This step is crucial for maintaining Matter certification and ensuring proper functionality of the Airowl's smart home features.
+- **Apple Home** will detect the Airowl device and guide you through the pairing process.  
+- Assign it a **room** and a **custom name** (e.g., **"Living Room Air Sensor"**).  
+- The device will now appear in **Apple Home**.  
 
 ### Step 4  Uploading to the device using PlatformIO
 
