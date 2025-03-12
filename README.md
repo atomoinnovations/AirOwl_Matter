@@ -8,11 +8,16 @@ The OIZOM Airowl is an indoor Air Quality Measurement device comprising of the E
 
 </div>
 
-This Repository serves as the source of the complete Airowl, consisting of its Firmware source files, 3D files and PCB design Files.
+# Airowl is Now Matter-Compatible
+
+Airowl now supports **Matter**, the new smart home standard, enabling seamless integration with **Apple HomeKit, Google Home**, and other Matter-supported ecosystems. Check the [Firmware](./Firmware) for details on Matter integration.
+
+This repository serves as the source of the complete Airowl, consisting of its firmware source files, 3D files, and PCB design files.
 
 This file provides instructions to assemble the individual components of the Airowl, along with its Bill of Materials (BOM).
 
-The BOM for the Airowl is as Follows:
+## The BOM for the Airowl is as Follows:
+
 
 | SR. | ITEM DESCRIPTION       | NOTES                                  | Qty | Product Links                                                 |
 |-----|------------------------|----------------------------------------|-----|---------------------------------------------------------------|
