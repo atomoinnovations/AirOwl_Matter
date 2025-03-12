@@ -83,7 +83,6 @@ Airowl can be added to the following **Matter-compatible** smart home platforms:
 - **Samsung SmartThings**  
 - **Home Assistant**
 - **Other Supported Matter Ecosystem**
-- 
 ---
 
 ## 📲 Pairing Airowl with Apple Home
@@ -112,8 +111,7 @@ Airowl can be added to the following **Matter-compatible** smart home platforms:
 - If there's no QR code, tap **“More Options”** and select the device from the list.
 
 #### Matter QR Code:
-![Matter QR Code][Screenshot from 2025-03-12 17-43-34](https://github.com/user-attachments/assets/b20d4f47-a8df-47d8-b352-2c6976f97780)
-
+![Matter QR Code](https://github.com/user-attachments/assets/b20d4f47-a8df-47d8-b352-2c6976f97780)
 
 #### Manual Pairing Code:
 `34970112332`
