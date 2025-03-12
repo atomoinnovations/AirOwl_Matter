@@ -37,8 +37,6 @@ More details of the individual components can be found as followed:
 
 [Firmware](/Firmware)
 
-<a href="https://www.notion.so/AirOWL-files-1986539acf81802582abdcf7e3626224?pvs=4" target="_blank">Modifications For Matter</a> 
-
 [Squareline studio project files](/squareline/) 
 
 [Design Files](/Designfiles/)
