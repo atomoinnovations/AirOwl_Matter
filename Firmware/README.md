@@ -43,7 +43,10 @@ Click on Open Project button as highlighted in the above picture and locate the 
 
 ### 📂 Step A: Add the Matter Library
 1. Go to the following directory:
-/.platformio/packages/framework-arduinoespressif32/libraries
+
+For Ubuntu : /.platformio/packages/framework-arduinoespressif32/libraries
+For Mac : 
+For Windows :
 
 2. Inside the `libraries` folder, locate or create a folder named **Matter**.
 3. Copy the **Matter** folder from the source code (`/Firmware/Matter`) and paste it inside `libraries/Matter`.
