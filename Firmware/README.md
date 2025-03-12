@@ -83,12 +83,12 @@ Before adding Airowl to a smart home ecosystem, you must **add Matter support** 
 
 Airowl can be added to the following **Matter-compatible** smart home platforms:
 
-✅ **Apple Home**  
-✅ **Google Home**  
-✅ **Amazon Alexa**  
-✅ **Samsung SmartThings**  
-✅ **Home Assistant** 
-✅ **Other Supported Matter Ecosystem**  
+- **Apple Home**  
+- **Google Home**  
+- **Amazon Alexa**  
+- **Samsung SmartThings**  
+- **Home Assistant**
+- **Other Supported Matter Ecosystem**  
 
 
 ---
