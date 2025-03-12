@@ -66,7 +66,7 @@ Before adding Airowl to a smart home ecosystem, you must **add Matter support** 
 
 ### 📂 Step 2: Add the Matter Library
 1. Go to the following directory:
-/home/mitesh/.platformio/packages/framework-arduinoespressif32/libraries
+/.platformio/packages/framework-arduinoespressif32/libraries
 
 2. Inside the `libraries` folder, locate or create a folder named **Matter**.
 3. Copy the **Matter** folder from the source code (`/Firmware/Matter`) and paste it inside `libraries/Matter`.
