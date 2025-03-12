@@ -60,6 +60,7 @@ Airowl is a Matter-compatible device that can be added to various smart home eco
 - **Amazon Alexa**
 - **Samsung SmartThings**
 - **Home Assistant**
+- **Other Supported Matter Ecosystem**
 
 ---
 
