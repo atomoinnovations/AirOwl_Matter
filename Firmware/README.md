@@ -82,9 +82,8 @@ Airowl can be added to the following **Matter-compatible** smart home platforms:
 - **Amazon Alexa**  
 - **Samsung SmartThings**  
 - **Home Assistant**
-- **Other Supported Matter Ecosystem**  
-
-
+- **Other Supported Matter Ecosystem**
+- 
 ---
 
 ## 📲 Pairing Airowl with Apple Home
@@ -106,10 +105,19 @@ Airowl can be added to the following **Matter-compatible** smart home platforms:
 2. Tap the **“+” (Add Accessory)** button in the top-right corner.  
 3. Select **“Add Accessory.”**  
 
-### Step 4: Scan the Matter QR Code  
-- Locate the **Matter QR Code** (on the device or in the documentation).  
-- Use your **iPhone camera** to scan the QR code.  
-- If there's no QR code, tap **“More Options”** and select the device from the list.  
+### Step 4: Scan the Matter QR Code
+
+- Locate the **Matter QR Code** (on the device or in the documentation).
+- Use your **iPhone camera** to scan the QR code.
+- If there's no QR code, tap **“More Options”** and select the device from the list.
+
+#### Matter QR Code:
+![Matter QR Code][Screenshot from 2025-03-12 17-43-34](https://github.com/user-attachments/assets/b20d4f47-a8df-47d8-b352-2c6976f97780)
+
+
+#### Manual Pairing Code:
+`34970112332`
+
 
 ### Step 5: Complete Setup  
 - **Apple Home** will detect the Airowl device and guide you through the pairing process.  
@@ -117,8 +125,6 @@ Airowl can be added to the following **Matter-compatible** smart home platforms:
 - The device will now appear in **Apple Home**.  
 
 ---
-
-
 
 ## Squareline Studio
 
