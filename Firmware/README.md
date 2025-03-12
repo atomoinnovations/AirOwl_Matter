@@ -46,7 +46,7 @@ Click on Open Project button as highlighted in the above picture and locate the 
 
 - **For Ubuntu :** /home/.platformio/packages/framework-arduinoespressif32/libraries
 - **For Mac :** 
-- **For Windows :** C:\Users\"user"\.platformio\packages\framework-arduinoespressif32\libraries
+- **For Windows :** C:\Users\\"YOUR-USER"\\.platformio\packages\framework-arduinoespressif32\libraries
 
 2. Inside the `libraries` folder, locate or create a folder named **Matter**.
 3. Copy the **Matter** folder from the source code (`/Firmware/Matter`) and paste it inside `libraries/Matter`.
