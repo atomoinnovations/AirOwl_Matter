@@ -38,6 +38,23 @@ Click on Open Project button as highlighted in the above picture and locate the 
 ![alt text](md_images/opening_firmware_repo.png)
 
 
+## ⚙️ Enabling Matter Support on Airowl
+
+
+### 📂 Step 1: Add the Matter Library
+1. Go to the following directory:
+/.platformio/packages/framework-arduinoespressif32/libraries
+
+2. Inside the `libraries` folder, locate or create a folder named **Matter**.
+3. Copy the **Matter** folder from the source code (`/Firmware/Matter`) and paste it inside `libraries/Matter`.
+
+### 🔄 Step 2: Build the Firmware
+1. After adding the Matter library, **build** the firmware in PlatformIO.
+
+🚀 **Your Airowl device now supports Matter and is ready for smart home integration!**
+
+---
+
 ### Step 3  Uploading to the device using PlatformIO
 
 
@@ -53,29 +70,6 @@ The terminal displays the upload status and on Successful upload displays the fo
 # Airowl Matter Device - Smart Home Integration
 
 Airowl is a **Matter-compatible** device designed for seamless integration into various smart home ecosystems, including **Apple Home, Google Home, Amazon Alexa, Samsung SmartThings, Home Assistant and Other Supported Matter Ecosystem**. Unlike other devices that require a physical pairing button, Airowl **automatically enters pairing mode** after connecting to Wi-Fi using Wi-Fi Manager.
-
----
-
-## ⚙️ Enabling Matter Support on Airowl
-
-Before adding Airowl to a smart home ecosystem, you must **add Matter support** by modifying the firmware.
-
-### 🛠️ Step 1: Build the Program
-1. Open **VSCode** and navigate to the **PlatformIO** environment.
-2. Build the **Airowl firmware** to ensure there are no errors.
-
-### 📂 Step 2: Add the Matter Library
-1. Go to the following directory:
-/.platformio/packages/framework-arduinoespressif32/libraries
-
-2. Inside the `libraries` folder, locate or create a folder named **Matter**.
-3. Copy the **Matter** folder from the source code (`/Firmware/Matter`) and paste it inside `libraries/Matter`.
-
-### 🔄 Step 3: Rebuild and Flash the Firmware
-1. After adding the Matter library, **rebuild** the firmware in PlatformIO.
-2. **Flash** the firmware onto the Airowl device.
-
-🚀 **Your Airowl device now supports Matter and is ready for smart home integration!**
 
 ---
 
